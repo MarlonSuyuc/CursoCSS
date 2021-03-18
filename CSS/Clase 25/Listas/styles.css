@@ -1,0 +1,118 @@
+/* 
+    Normalmente necesitamos resetear los estilos por defecto de una lista
+        margin-top:0;
+        margin-bottom:0;
+        padding-left:0;
+
+    Hay tres propiedades para las listas, se pueden aplicar al padre o a los elementos de la lista
+
+    list-style-type: Establece el estilo de viñeta(Punto )
+        disc
+        circle
+        square
+        decimal
+        decimal-leading-zero
+        lower-roman
+        upper-roman
+        lower-greek
+        lower-latin
+        upper-latin
+        armenian
+        georgian
+        lower-alpha
+        upper-alpha
+
+    list-style-position: Hace que las viñetas se coloquen por dentro o por fuera del elemento
+        outside | inside
+        
+    list-style-image: Pone una imagen en lugar de la viñeta, no se suele utilizar porque hay formas mucho más eficientes de hacerlo
+        url(imagen)
+
+    Normamente se suele usar el shorthand list-style
+*/
+
+/*__________________________________________________________________*/
+.list1 {
+  list-style-type: disc;
+}
+.list2 {
+  list-style-type: circle;
+}
+.list3 {
+  list-style-type: square;
+}
+.list4 {
+  list-style-type: decimal;
+}
+.list5 {
+  list-style-type: decimal-leading-zero;
+}
+.list6 {
+  list-style-type: lower-roman;
+}
+.list7 {
+  list-style-type: upper-roman;
+}
+.list8 {
+  list-style-type: lower-greek;
+}
+.list9 {
+  list-style-type: lower-latin;
+}
+.list10 {
+  list-style-type: upper-latin;
+}
+.list11 {
+  list-style-type: armenian;
+}
+.list12 {
+  list-style-type: georgian;
+}
+.list13 {
+  list-style-type: lower-alpha;
+}
+.list14 {
+  list-style-type: upper-alpha;
+}
+/******************************************************************/
+
+.list15 {
+  list-style-type: none;
+}
+.list__item_one::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: url(check.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 1em;
+}
+/******************************************************************/
+
+.list16 {
+  list-style-type: none;
+}
+.list__item_two {
+  background-image: url(check.png);
+  background-position: 0 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 1.7em;
+  /* background: url(check.png) 0 0 / contain no-repeat; Esta es otra forma*/
+}
+/******************************************************************/
+
+.list17 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.list__item17 {
+  float: left;
+  padding-right: 2em;
+}

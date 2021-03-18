@@ -1,0 +1,26 @@
+/* 
+Sitios gratuitos para fuentes
+    https://www.dafont.com/es/
+    https://www.1001fonts.com/
+
+    Analizar fuentes web
+        whatFont = Es una extencion para ver otras paginas y ver que fuenes utiliza
+*/
+
+.title {
+  font-family: "Raleway", "sans-serif";
+}
+
+.paragraph {
+  font-family: "Montserrat", "sans-serif";
+}
+
+/* _______________________________________________ */
+@font-face {
+  src: url("assets/fonts/Music Magic Personal Use/Music Magic Personal Use.ttf");
+  font-family: "myFont";
+}
+
+.parrafo2 {
+  font-family: "myFont";
+}
