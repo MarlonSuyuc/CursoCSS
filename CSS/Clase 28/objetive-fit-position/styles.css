@@ -23,34 +23,130 @@ filter:
     url() - Buscar información
 */
 
-/* .img{
-    width: 250px;
-    height: 450px;
-    background: red;
-    object-fit: cover;
-    object-position: left;
+.img {
+  width: 250px;
+  height: 450px;
+  background: red;
+  object-fit: contain;
+}
+.img-2 {
+  max-width: 100%;
+}
+/***********************TRANSICION*********************/
+.img-3 {
+  width: 250px;
+  height: 450px;
+  background: red;
+  object-fit: cover;
+  object-position: left;
+  transition: object-position 3s;
+}
+.img-3:hover {
+  object-position: right;
 }
 
-.img:hover{
-    object-position: right;
-} */
-
-
-.img-2{
-    max-width: 100%;
-    /* filter: blur(5px) */
-    /* filter: brightness(.5) */
-    /* filter: contrast(8) */
-    /* filter: drop-shadow(h-shadow v-shadow blur (spread) color) */
-    /* filter: drop-shadow(10px 10px 10px black) */
-    /* filter: grayscale(.4) */
-    /* filter: hue-rotate(45deg) */
-    /* filter: invert(.7) */
-    /* filter: opacity(.2) */
-    /* filter: saturate(2) */
-    /* filter: sepia(.7) */
+/***********************FILTROS***********************/
+.img-4 {
+  width: 600px;
+  max-width: 100%;
 }
 
-.img-2:hover{
-    filter: none;
+.img-4:hover {
+  filter: blur(5px); /*Desenfoca(lo pone borroso)*/
+  /*tambiens e puede al reves poner 
+  filter: blur (5px) en .img-4 y en .img-4:hover filter: none */
 }
+
+.img-5 {
+  width: 600px;
+  max-width: 100%;
+}
+
+.img-5:hover {
+  filter: brightness(0.5); /*es para poner o quitar brillo*/
+}
+
+.img-6 {
+  width: 600px;
+  max-width: 100%;
+}
+
+.img-6:hover {
+  filter: contrast(2); /*para el contraste*/
+}
+
+.img-7 {
+  width: 600px;
+  max-width: 100%;
+}
+
+.img-7:hover {
+  filter: drop-shadow(10px 10px 10px black); /*para ponerle una sombra*/
+  /* horizontal, vertical, desenfoque, extencion, color */
+}
+
+.img-8 {
+  width: 600px;
+  max-width: 100%;
+}
+
+.img-8:hover {
+  filter: grayscale(1); /*Para ponerlo en blanco y negro o quitarle saturacion*/
+}
+
+.img-9 {
+  width: 600px;
+  max-width: 100%;
+}
+
+.img-9:hover {
+  filter: hue-rotate(100deg); /*esto se basa con la rueda cromatica*/
+}
+
+.img-10 {
+  width: 600px;
+  max-width: 100%;
+}
+
+.img-10:hover {
+  filter: invert(0.7); /*para invertir la imagen*/
+}
+
+.img-11 {
+  width: 600px;
+  max-width: 100%;
+}
+
+.img-11:hover {
+  filter: opacity(0.2);
+}
+
+.img-12 {
+  width: 600px;
+  max-width: 100%;
+}
+
+.img-12:hover {
+  filter: saturate(2);
+}
+
+.img-13 {
+  width: 600px;
+  max-width: 100%;
+}
+
+.img-13:hover {
+  filter: sepia(0.7);
+}
+
+/* filter: blur(5px) */
+/* filter: brightness(.5) */
+/* filter: contrast(8) */
+/* filter: drop-shadow(h-shadow v-shadow blur (spread) color) */
+/* filter: drop-shadow(10px 10px 10px black) */
+/* filter: grayscale(.4) */
+/* filter: hue-rotate(45deg) */
+/* filter: invert(.7) */
+/* filter: opacity(.2) */
+/* filter: saturate(2) */
+/* filter: sepia(.7) */

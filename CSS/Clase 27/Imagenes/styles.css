@@ -16,31 +16,60 @@
         Flexbox (La mejor opción)
         vertical-align: middle. A la imagen y al texto
 */
-.img {
+.img-container1 {
+  width: 80%;
+  display: block;
+  margin: auto; /*esto es para centrar*/
+}
+.img1 {
   max-width: 100%;
 }
 
+.img-container2 {
+  background: red;
+}
+.img2 {
+  max-width: 100%;
+  display: block; /*esto es para quitarle el color rojo que le queda por abajo 
+  o tambien se puede colocar en el .img-contenedor line-height: 0;*/
+}
+
+.img-container3 {
+  background: rgb(212, 212, 241);
+}
+
+.img3 {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* 
-.img-container{
-    text-align: center;
-    background: lavender;
+.img4 {
+  max-width: 100%;
+}
+
+.img-container4 {
+  text-align: center;
+  background: rgb(151, 151, 177);
 }*/
 
-/* .img-container img,
-.img-container span{
-    vertical-align: middle;
+.img-container4 img,
+.img-container4 span {
+  vertical-align: middle;
+  /*esto es para ailnear el texto con respecto  ala imagen*/
+}
+.img-container4 {
+  display: table;
 }
 
-.img-container{
-    display: table;
+.img-container4 span,
+.img-container4 p {
+  display: table-cell;
 }
 
-.img-container span,
-.img-container p{
-    display: table-cell;
-} */
-
-.img-container {
+/*Esta menra de abajo es con Flex Box*/
+/* .img-container4 {
   display: flex;
   align-items: center;
-}
+} */
