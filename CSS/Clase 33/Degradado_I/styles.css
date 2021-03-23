@@ -41,9 +41,13 @@ Degradados radiales
 */
 
 .box {
-    width: 200px;
-    height: 200px;
-    border: 3px solid black;
-    margin: 2em auto;
-    background-image: radial-gradient(ellipse 225px 50px at bottom, transparent 50%, blue 50%);
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  margin: 2em auto;
+  background-image: radial-gradient(
+    ellipse 225px 50px at bottom,
+    transparent 50%,
+    blue 50%
+  );
 }

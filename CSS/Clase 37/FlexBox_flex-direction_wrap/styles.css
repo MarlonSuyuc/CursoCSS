@@ -20,18 +20,19 @@ Flexbox
 */
 
 .flex-container {
-    background-color: #FCA17D;
-    padding: .5em 0;
-    display: flex;
-    flex-wrap: wrap;
+  background-color: #fca17d;
+  height: 500px;
+  padding: 0.5em 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .flex-item {
-    width: 30px;
-    height: 30px;
-    margin: .5em;
-    line-height: 30px;
-    color: aliceblue;
-    text-align: center;
-    background-color: #9A348E;
+  width: 30px;
+  height: 30px;
+  margin: 0.5em;
+  line-height: 30px;
+  color: aliceblue;
+  text-align: center;
+  background-color: #9a348e;
 }

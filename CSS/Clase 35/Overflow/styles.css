@@ -10,10 +10,10 @@ Overflow
 */
 
 .article {
-    border: 1px solid blue;
-    padding: .5em;
-    height: 100px;
-    overflow: auto;
+  border: 1px solid blue;
+  padding: 0.5em;
+  height: 100px;
+  overflow: auto;
 }
 
 /*
@@ -34,13 +34,14 @@ Un elemento flotado hace que el padre deje de contenerlo, hay varias formas de s
 */
 
 .article-float {
-    border: 1px solid blue;
-    overflow: hidden;
+  margin-top: 100px;
+  border: 1px solid blue;
+  overflow: hidden;
 }
 
 .article-float img {
-    max-width: 50%;
+  max-width: 50%;
 
-    float: left;
-    margin-right: .5em;
+  float: left;
+  margin-right: 0.5em;
 }
