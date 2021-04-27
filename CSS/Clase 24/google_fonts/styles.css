@@ -8,7 +8,7 @@ Sitios gratuitos para fuentes
 */
 
 .title {
-  font-family: "Raleway", "sans-serif";
+  font-family: "myFont", "sans-serif";
 }
 
 .paragraph {
@@ -23,4 +23,14 @@ Sitios gratuitos para fuentes
 
 .parrafo2 {
   font-family: "myFont";
+}
+
+/* ******************************************************   */
+
+.parrafo3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.parrafo4 {
+  font-family: "Indie Flower", cursive;
 }

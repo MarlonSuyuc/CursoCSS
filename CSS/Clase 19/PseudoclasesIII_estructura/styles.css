@@ -7,15 +7,18 @@ Structural
     
     -child
         :first-child - Selecciona al primer hijo (independientemente del tipo de etiqueta)
-        :last-child - Selecciona al ultimo hijo (independientemente del tipo de etiqueta)
+
+        :last-child - Seleccio  na al ultimo hijo (independientemente del tipo de etiqueta)
 
         :nth-child(n) - Selecciona al hijo n(independientemente del tipo de etiqueta)
+
         :nth-last-child(n) Selecciona al hijo n empezando a contar desde el último (independientemente del tipo de etiqueta)
+        
         :only-child Selecciona al hijo unico(independientemente del tipo de etiqueta)
-    
+      
     -type
         :first-of-type
-        :last-of-type
+        :l ast-of-type
         :nth-of-type()
         :nth-last-of-type()
         :only-of-type

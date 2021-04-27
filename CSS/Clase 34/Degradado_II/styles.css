@@ -1,23 +1,65 @@
-.box {
-    width: 250px;
-    height: 250px;
-    border: 3px solid black;
-    margin: 2em auto;
-    background-image: repeating-radial-gradient(circle 20px,
-        red 0,
-        red 10px,
-        blue 10px,
-        blue 20px);
+.conteiner {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.box-2 {
-    width: 250px;
-    height: 250px;
-    border: 3px solid black;
-    margin: 2em auto;
-    background-image: repeating-linear-gradient(30deg,
-        red 0,
-        red 10px,
-        blue 10px,
-        blue 20px);
+[class*="box"] {
+  width: 200px;
+  height: 200px;
+  margin: 10px 10px;
+  border: 3px solid black;
+}
+
+.box1 {
+  background-image: linear-gradient(90deg, #00ffc8 50%, #007180 50%);
+  background-size: 30px 30px;
+}
+
+.box2 {
+  background-image: linear-gradient(
+    45deg,
+    #00ffc8 25%,
+    #007180 25%,
+    #007180 50%,
+    #00ffc8 50%,
+    #00ffc8 75%,
+    #007180 75%
+  );
+  background-size: 30px 30px;
+}
+
+.box3 {
+  background-image: repeating-linear-gradient(
+    70deg,
+    red 0,
+    red 10px,
+    blue 10px,
+    blue 20px
+  );
+}
+
+.box4 {
+  background-image: repeating-linear-gradient(30deg, red 0, blue 70px);
+}
+
+.box5 {
+  background-image: repeating-radial-gradient(
+    circle 20px,
+    red 0,
+    red 10px,
+    blue 10px,
+    blue 20px
+  );
+}
+
+.box6 {
+  background-image: repeating-linear-gradient(
+    30deg,
+    red 0,
+    red 10px,
+    blue 10px,
+    blue 20px
+  );
 }

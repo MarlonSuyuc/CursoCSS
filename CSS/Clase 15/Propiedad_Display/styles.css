@@ -22,12 +22,11 @@
     grid – maquetar layout
 */
 
-.inline{
-    background: lime;
+.inline {
+  background: lime;
 }
 
-.block{
-    background: yellow;
-    margin: 0;
-    
+.block {
+  background: yellow;
+  margin: 0;
 }

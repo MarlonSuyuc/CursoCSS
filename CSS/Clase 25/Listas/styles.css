@@ -7,16 +7,16 @@
     Hay tres propiedades para las listas, se pueden aplicar al padre o a los elementos de la lista
 
     list-style-type: Establece el estilo de viñeta(Punto )
-        disc
-        circle
-        square
-        decimal
-        decimal-leading-zero
-        lower-roman
-        upper-roman
-        lower-greek
-        lower-latin
-        upper-latin
+        disc        punto
+        circle      circulo
+        square      cuadrado    
+        decimal     numeros naturales
+        decimal-leading-zero    un cero antes de los numeros naturales
+        lower-roman   numeros romanos en minuscula
+        upper-roman   numeros romanos en mayuscula
+        lower-greek   alfabeto griego en minuscula
+        lower-latin    alfabeto latin en minuscula
+        upper-latin alfabeto latin en mayuscula 
         armenian
         georgian
         lower-alpha
@@ -113,6 +113,6 @@
 }
 
 .list__item17 {
-  float: left;
+  float: right;
   padding-right: 2em;
 }

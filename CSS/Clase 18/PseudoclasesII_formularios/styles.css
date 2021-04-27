@@ -1,6 +1,6 @@
 .input,
 .label {
-    display: block;
+  display: block;
 }
 
 /*
@@ -21,43 +21,43 @@ UI States
 
 /*===Ejercicios PSEUDOCLASES II===*/
 .input:enabled {
-    background: red;
+  background: red;
 }
-
 
 .input:disabled {
-    background: yellow;
-    border: none;
+  background: yellow;
+  border: none;
 }
 
-
-.input:checked + label{
-    font-size: 2em;
+.input:checked + label {
+  font-size: 2em;
 }
 
-.input:in-range{
-    background: green;
+.input:in-range {
+  background: green;
 }
-.input:out-of-range{
-    background: blue;
+.input2 {
+  background: green;
 }
-
-.input:optional{
-    background: purple;
-}
-
-.input:required{
-    background: lightcoral;
+.input2:out-of-range {
+  background: blue;
 }
 
-.input:valid{
-    background: green;
+.input:optional {
+  background: purple;
 }
 
-.input:invalid{
-    background: red;
+.input:required {
+  background: lightcoral;
 }
 
+.input:valid {
+  background: green;
+}
+
+.input:invalid {
+  background: red;
+}
 
 /*
 Structural

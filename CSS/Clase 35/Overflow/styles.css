@@ -41,7 +41,6 @@ Un elemento flotado hace que el padre deje de contenerlo, hay varias formas de s
 
 .article-float img {
   max-width: 50%;
-
   float: left;
   margin-right: 0.5em;
 }

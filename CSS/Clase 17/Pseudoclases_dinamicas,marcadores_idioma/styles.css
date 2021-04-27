@@ -13,96 +13,88 @@ Language
     :lang() - Elemento que contiene el atributo lang que especifiquemos
 */
 
-
-
-
 /*===Ejercicios PSEUDOCLASES I===*/
 
 .link:link {
-    color: red;
+  color: red;
 }
 
 .link:visited {
-    color: chartreuse
+  color: chartreuse;
 }
 
 .link:active {
-    color: cyan;
-    background: red;
+  color: cyan;
+  background: red;
 }
 
-
 .button {
-    text-decoration: none;
-    display: inline-block;
-    background: red;
-    padding: .5em;
-    border-radius: 10px;
-    color: #FFF;
+  text-decoration: none;
+  display: inline-block;
+  background: red;
+  padding: 0.5em;
+  border-radius: 10px;
+  color: #fff;
 }
 
 .button:active {
-    transform: scale(.9)
+  transform: scale(0.9);
 }
 
-
 .button-2 {
-    text-decoration: none;
-    display: inline-block;
-    background: red;
-    padding: .5em;
-    border-radius: 10px;
-    color: #FFF;
+  text-decoration: none;
+  display: inline-block;
+  background: red;
+  padding: 0.5em;
+  border-radius: 10px;
+  color: #fff;
 }
 
 .button-2:active {
-    transform: scale(.9)
+  transform: scale(0.9);
 }
 
 .button-2:hover {
-    color: red;
-    background: #fff;
-    border: 1px solid;
-    border-radius: 10px;
+  color: red;
+  background: #fff;
+  border: 1px solid;
+  border-radius: 10px;
 }
 
 .input:focus {
-    background: rgb(194, 193, 192);
+  background: rgb(194, 193, 192);
 }
 
-
-
 .menu {
-    background: lightblue;
-    display: block;
-    padding: 1em;
-    text-decoration: none;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 150px;
-    left: 0;
+  background: lightblue;
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 150px;
+  left: 0;
 }
 
 .text {
-    margin-top: 700px;
-    margin-bottom: 500px;
+  margin-top: 700px;
+  margin-bottom: 500px;
 }
 
-.text:target {/*Esto es para que el menu no tape el contenido del lorem*/
-    padding-top: 220px;
+.text:target {
+  /*Esto es para que el menu no tape el contenido del lorem*/
+  padding-top: 220px;
 }
 
-.span{
-    display: block;
+.span {
+  display: block;
 }
-
 
 .span:lang(en) {
-    color: red;
+  color: red;
 }
 
 .span:lang(es) {
-    color: blue;
+  color: blue;
 }
-

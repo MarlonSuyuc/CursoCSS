@@ -12,23 +12,38 @@
                 top-left top-right & bottom-left bottom-right
                 top-left top-right bottom-right bottom-left
             )
-        polygon(): Especifica una serie de puntos (mínimo 3) para definir la zona visible siendo el punto 0 0 la esquina superior izquierda
+        poly on(): Especifica una serie de puntos (mínimo 3) para definir la zona visible siendo el punto 0 0 la esquina superior izquierda 
         los puntos se especifican por parejas de ejeX y ejeY separados por comas
         polygon(0 0, 100% 0, 0 100%)
 
         Generador de clip-path: https://bennettfeely.com/clippy/
 */
 
-.box {
+.a {
   width: 400px;
   height: 400px;
-  background: rgb(67, 228, 193);
+  background: #7c1212;
   margin-left: auto;
   margin-right: auto;
 }
+.b {
+  background: lightcoral;
+  width: 400px;
+  height: 400px;
+  clip-path: inset(25px round 10px 10px 150px 150px);
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  background: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
 
 .box__item {
-  background: rgb(41, 63, 122);
+  background: lightcoral;
   width: 400px;
   height: 400px;
   /* clip-path: circle(100px at center); */
@@ -62,37 +77,4 @@
     100% 100%,
     100% 0%
   );
-}
-
-/***********************************************/
-
-.img {
-  position: absolute;
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.cuadradoF {
-  margin-top: 100px;
-  position: absolute;
-  background: rgb(41, 63, 122);
-  width: 400px;
-  height: 400px;
-  clip-path: polygon(
-    0% 0%,
-    0% 100%,
-    25% 100%,
-    25% 25%,
-    75% 25%,
-    75% 75%,
-    25% 75%,
-    25% 100%,
-    100% 100%,
-    100% 0%
-  );
-  transition: clip-path 0.6s;
 }

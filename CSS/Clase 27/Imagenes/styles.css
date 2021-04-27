@@ -31,7 +31,7 @@
 .img2 {
   max-width: 100%;
   display: block; /*esto es para quitarle el color rojo que le queda por abajo 
-  o tambien se puede colocar en el .img-contenedor line-height: 0;*/
+  o tambien se puede colocar en el .img-conteiner2 line-height: 0;*/
 }
 
 .img-container3 {

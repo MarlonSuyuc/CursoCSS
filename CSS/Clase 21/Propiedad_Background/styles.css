@@ -1,23 +1,26 @@
 [class^="bg-"] {
-    display: flex;
-    flex-wrap: wrap;
-    width: 30%;
-    margin: 0 auto;
-    height: 150px;
-    border: 1px solid red;
+  display: inline-block;
+  width: 30%;
+  height: 150px;
+  border: 1px solid red;
 }
 
 /* 
 background-color: Establece el color de fondo de la caja
 background-image:url(ruta) Establece la imagen de fondo de la caja
+ 
 background-repeat: Establece si la imagen se repite o no
     repeat-x|repeat-y|no-repeat
+     
 background-size: Establece el tamaño de la imagen de fondo
     x [y]|auto|cover|contain. 
     el valor en y es opcional, si no se lo ponemos lo calcula automáticamente
     cover cubre la caja por completo, aunque la imagen escape del contenedor
     contain la imagen se ajusta al contenido
-background-position: Establece la posicion de la imagen, si no se especifica un segundo valor será center
+
+
+     
+background -position: Establece la posicion de la imagen, si no se especifica un segundo valor será center
     left top
     left center
     left bottom
@@ -45,69 +48,66 @@ background-attachment: permite establecer si el fondo se coloca respecto a la ca
 */
 
 body {
-    padding-bottom: 50em;
-    text-align: center;
+  padding-bottom: 50em;
+  text-align: center;
 }
 
 .bg-color {
-    background-color: purple;
+  background-color: purple;
 }
 
 .bg-image {
-    background-image: url(logo.png);
+  background-image: url(logo.png);
 }
 
 .bg-size {
-    background-image: url(cafe.jpeg);
-    background-size: cover;
+  background-image: url(cafe.jpeg);
+  background-size: cover;
 }
 
 .bg-repeat {
-    background-image: url(logo.png);
-    background-size: 60%;
-    background-repeat: no-repeat;
+  background-image: url(logo.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
 }
 
 .bg-position {
-    background-image: url(logo.png);
-    background-size: 20%;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url(logo.png);
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .bg-origin {
-    background-origin: border-box;
-    border: 10px dotted red;
-    padding: 25px;
-    background-image: url(cafe.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-origin: border-box;
+  border: 10px dotted red;
+  padding: 25px;
+  background-image: url(cafe.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .bg-clip {
-  
-    background-clip: content-box;
-    border: 10px dotted red;
-    background-image: url(cafe.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 25px;
+  background-clip: content-box;
+  border: 10px dotted red;
+  background-image: url(cafe.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 25px;
 }
 
-.bg-attachment {/*EFECTO PARALAX*/
-    width: 100%;
-    height: 400px;
-    background-image: url(cafe.jpeg);/*Esto es para el fondo de un apgina web como el de alexCG Designe*/
-    background-size: contain;
-    background-attachment: fixed;
-
+.bg-attachment {
+  /*EFECTO PARALAX*/
+  width: 100%;
+  height: 400px;
+  background-image: url(cafe.jpeg); /*Esto es para el fondo de un apgina web como el de alexCG Designe*/
+  background-size: contain;
+  background-attachment: fixed;
 }
 
 .bg-multiple {
-    background-image: 
-        url(logo.png),
-        url(cafe.jpeg);
-    background-size: 30%, cover;
-    background-repeat: no-repeat;
-    background-position: bottom right, center;
+  background-image: url(logo.png), url(cafe.jpeg);
+  background-size: 30%, cover;
+  background-repeat: no-repeat;
+  background-position: bottom right, center;
 }
